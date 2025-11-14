@@ -7,7 +7,9 @@
 </head>
 <body>
     <a href="calc.php">Simple Calculator</a><br>
-    <a href="birthday.php">Days Until Next Birthday</a>
-    <a href="grade.php">Grade Calculator</a>
+    <a href="birthday.php">Days Until Next Birthday</a><br>
+    <a href="grade.php">Grade Calculator</a><br>
+    <a href="even_odd.php">Even or Odd</a><br>
+    <a href="login.php">Login Form</a>
 </body>
 </html>
