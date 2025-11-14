@@ -8,5 +8,6 @@
 <body>
     <a href="calc.php">Simple Calculator</a><br>
     <a href="birthday.php">Days Until Next Birthday</a>
+    <a href="grade.php">Grade Calculator</a>
 </body>
 </html>
