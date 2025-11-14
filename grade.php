@@ -10,7 +10,7 @@
     <form method="post" action="grade.php">
         <label for="number">Grade:</label>
         <input type="number" name="grade">
-        <input type="submit" value="submit">
+        <input type="submit" value="submit" class="left">
     </form>
 
     <?php

@@ -8,8 +8,8 @@
 </head>
 <body>
     <form method="post" action="even_odd.php">
-        <label for="number">Put a number it will tell you Even or Odd:</label><br>
-        <input type="number" name="num">
+        <label for="number">Even or Odd:</label><br>
+        <input type="number" name="num"><br>
         <input type="submit" value="Submit">
 
 
@@ -30,6 +30,7 @@
     
     
     ?>
+    <br>
     <a href="index.php">Home page</a>
 </body>
 </html>

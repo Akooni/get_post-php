@@ -12,7 +12,7 @@
     <form method = "post" action="birthday.php">
         <label for = "date">Data of Birth:</label>
         <input type = date name ="birthday">
-        <input type="submit" value="submit">
+        <input type="submit" value="submit" class="left">
     </form>
 
 
