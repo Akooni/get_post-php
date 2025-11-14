@@ -23,7 +23,7 @@
         if($usr === "admin" && $pwd === '1234'){
             echo"<h1> Welcome back </h1>";
         } else {
-            echo"<h1> Wrong username/password";
+            echo"<h3> Wrong username/password</h3>";
         }
     }
     
