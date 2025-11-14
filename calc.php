@@ -45,21 +45,21 @@
     $num1 = $_POST['num1'];
     $num2 = $_POST['num2'];
     $oper = $_POST['oper'];
-    if(isset($_POST['num1']) && isset($_POST['num2']) && isset($_POST['oper'])){
-        if($oper == 'mul') {
-            $return = $num1 * $num2;
-        }
-        else if($oper == 'div') {
-            $return = $num1 / $num2;
-        }
-        else if($oper == 'add'){
-            $return = $num1 + $num2;
-        }
-        else if($oper == 'sub'){
-            $return = $num1 - $num2;
-        }
-        
-        echo '<h2>Results: '.$return.'</h2>';
+        if(isset($_POST['num1']) && isset($_POST['num2']) && isset($_POST['oper'])){
+            if($oper == 'mul') {
+                $return = $num1 * $num2;
+            }
+            else if($oper == 'div') {
+                $return = $num1 / $num2;
+            }
+            else if($oper == 'add'){
+                $return = $num1 + $num2;
+            }
+            else if($oper == 'sub'){
+                $return = $num1 - $num2;
+            }
+            
+            echo '<h2>Results: '.$return.'</h2>';
     }    
     ?>
     <br>

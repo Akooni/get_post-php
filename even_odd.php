@@ -9,8 +9,8 @@
 <body>
     <form method="post" action="even_odd.php">
         <label for="number">Even or Odd:</label><br>
-        <input type="number" name="num"><br>
-        <input type="submit" value="Submit">
+        <input type="number" name="num">
+        <input type="submit" value="Submit" class="left">
 
 
     </form>
