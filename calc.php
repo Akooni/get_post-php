@@ -8,10 +8,10 @@
 <body>
     <form method="post" action="calc.php">
         <label for="number">Number:1</label>
-        <input type = "text" id="num1" name ="num1">
+        <input type = "number" id="num1" name ="num1">
         <br><br>
         <label for="number">Number:2</label>
-        <input type = "text" id="num2" name ="num2">
+        <input type = "number" id="num2" name ="num2">
 
         <br><br>
         <label for="number">Choose the operation:</label><br>
@@ -44,7 +44,7 @@
             $return = $num1 - $num2;
         }
         
-        echo '<h1>Results: '.$return.'</h1>';
+        echo '<h2>Results: '.$return.'</h2>';
     }    
     ?>
     <a href="index.php">Home page</a>

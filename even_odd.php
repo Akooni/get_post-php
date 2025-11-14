@@ -20,9 +20,9 @@
         $num = (int)$_POST['num'];
         
         if($num % 2 === 0 ) {
-            echo '<h1>'.$num.$space.'is even</h1>';
+            echo '<h2>'.$num.$space.'is even</h2>';
         } else {
-            echo '<h1>'.$num.$space.'is odd</h1>';
+            echo '<h2>'.$num.$space.'is odd</h2>';
         }
     }
     

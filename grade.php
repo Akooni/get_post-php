@@ -27,7 +27,7 @@
             } else {
                 $return = 'Fail';
             }
-            echo '<h1>'.$return.'</h1>';
+            echo '<h2>'.$return.'</h2>';
         }
     }
     ?>
