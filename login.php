@@ -30,5 +30,7 @@
     
     
     ?>        
+    <br>
+    <a href="index.php">Home page</a>
 </body>
 </html>

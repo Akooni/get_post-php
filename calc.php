@@ -47,5 +47,6 @@
         echo '<h1>Results: '.$return.'</h1>';
     }    
     ?>
+    <a href="index.php">Home page</a>
 </body>
 </html>
