@@ -1,0 +1,26 @@
+.home a{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+a ,p{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+label , .radio-option{
+    font-family:Roboto,sans-serif;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 16px;
+    background-color: #4a7aff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <form method="post" action="calc.php">
@@ -15,12 +16,26 @@
 
         <br><br>
         <label for="number">Choose the operation:</label><br>
+        
+        <label class="radio-option">
         <input type = "radio"  name ="oper" value="mul"> multiplication * <br>
-        <input type = "radio"  name ="oper" value="div"> Divide / <br>
-        <input type = "radio"  name ="oper" value="add"> addition + <br>
-        <input type = "radio"  name ="oper" value="sub"> Substraction - <br>
-        <input type = "submit" value="submit"> 
+        </label>
 
+        <label class="radio-option">
+        <input type = "radio"  name ="oper" value="div"> Divide / <br>
+        </label>
+
+        <label class="radio-option">
+        <input type = "radio"  name ="oper" value="add"> addition + <br>
+        </label>
+
+        <label class="radio-option">
+        <input type = "radio"  name ="oper" value="sub"> Substraction - <br>
+        </label>
+
+        <label class="radio-option">
+        <input type = "submit" value="submit"> 
+        </label>
     
 
 
