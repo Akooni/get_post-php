@@ -25,8 +25,9 @@
     $next_birthday = new DateTime("$current_year-$month-$day");
 
     $diff = $current_date -> diff($next_birthday);
-
-    echo $diff -> days;
+    if(isset($_POST['birthday'])){
+        echo $diff -> days;
+    }
     ?>
 </body>
 </html>
